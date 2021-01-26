@@ -1,0 +1,123 @@
+H: OpenLieroX/0.58_rc5 is starting ...
+n: Free memory: 2047 MB
+n: Current time: Tue Jan 19 16:12:36 2021
+n: Searchpaths (in this order):
+n:   C:\Users\GAME1.1\Documents/OpenLieroX
+n:   .
+n:   C:\Users\GAME1.1\Desktop\OpenLieroX
+n: Searchpaths finished.
+n: Installing CrashHandler .. Dummy CrashHandler implementation
+n: Loading network texts... DONE
+n: Hello there, I am initializing me now...
+n: SDL_VIDEODRIVER not set, setting to directx
+n: setting video mode
+n: ColorDepth: 32
+n: VideoPostProcessor initialisation ... using Dummy video post processor
+n: PixelFormat:
+n:   BitsPerPixel: 32,  BytesPerPixel: 4
+n:   R/G/B/A mask: ff0000/ff00/ff/0
+n:   R/G/B/A loss: 0/0/0/8
+n:   Colorkey: 0,  Alpha: 255
+n: using software surfaces
+n: video mode was set successfully
+n: SoundSystem initialised, 1000 channels allocated
+n: Initializing ready
+n: PhysicsEngine LX56 physics loaded
+n: CMap::Load: level levels/Dirt Level.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/GnomeVillage.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+H: server started on [::]:23400
+n: Client connect to 127.0.0.1:23400
+n: sending challenge request to 127.0.0.1:23400
+n: MaxFPS is 95
+n: GameLoopStart
+n: Server is using OpenLieroX/0.58_rc5
+n: CClient: got challenge response from OpenLieroX/0.58_rc5 server
+n: GameServer: our local client has connected
+H: Worm joined: OpenLieroXor (id 0, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] K1ll0r (id 1, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Kamikazee! (id 2, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] N00b (id 3, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Worm (id 4, from local(OpenLieroX/0.58_rc5))
+n: GameServer::StartGame(), mod: Naruto 1.26 NT, time: Tue Jan 19 16:13:42 2021
+n: LoadTheme: Theme dirt already loaded
+n: reusing cached map for levels/GnomeVillage.lxl
+n: Server Map loadtime: 0.063 seconds
+n: modLog: Loading game mod file NarutoNT-1.26/script.lgs
+n: Server Mod loadtime: 0.608 seconds
+n: preparing game mode Demolitions
+W: deltatime 0.676 is too high
+n: Our external IP address is 85.69.182.170
+n: Client: Got ParsePrepareGame
+n: Client: preparing worm 0:OpenLieroXor for battle
+n: Client: preparing worm 1:[CPU] K1ll0r for battle
+n: Client: preparing worm 2:[CPU] Kamikazee! for battle
+n: Client: preparing worm 3:[CPU] N00b for battle
+n: Client: preparing worm 4:[CPU] Worm for battle
+H: Client: we are ready, waiting now for start game signal
+n: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server: client local(OpenLieroX/0.58_rc5)(0 'OpenLieroXor', 1 '[CPU] K1ll0r', 2 '[CPU] Kamikazee!', 3 '[CPU] N00b', 4 '[CPU] Worm') got ready
+H: Server: BeginMatch for local(OpenLieroX/0.58_rc5)(0 'OpenLieroXor', 1 '[CPU] K1ll0r', 2 '[CPU] Kamikazee!', 3 '[CPU] N00b', 4 '[CPU] Worm')
+n: local Server 'OpenLieroX Server' game state:
+n:  * playing, Demolitions
+n:  * level=Gnome Village, mod=Naruto 1.26 NT
+n:  * maxkills=15, lives=-1, timelimit=360 (curtime=0)
+n:  + 0:'OpenLieroXor', alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 1:'[CPU] K1ll0r'(bot), alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 2:'[CPU] Kamikazee!'(bot), alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 3:'[CPU] N00b'(bot), alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 4:'[CPU] Worm'(bot), alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client: get BeginMatch signal
+W: bot: support for gamemode Demolitions is currently not implemented
+W: bot: support for gamemode Demolitions is currently not implemented
+W: bot: support for gamemode Demolitions is currently not implemented
+W: bot: support for gamemode Demolitions is currently not implemented
+W: possible lock of game thread detected
+W: deltatime 3.235 is too high
+W: possible lock of game thread detected
+W: deltatime 3.215 is too high
+W: possible lock of game thread detected
+W: deltatime 3.268 is too high
+W: possible lock of game thread detected
+W: deltatime 3.217 is too high
+W: possible lock of game thread detected
+W: deltatime 3.293 is too high
+W: possible lock of game thread detected
+W: deltatime 3.225 is too high
+n: time limit (360) reached with current time 360.003 -> game over
+H: Server: gameover, worm 4 has won the match
+n: local Server 'OpenLieroX Server' game state:
+n:  * playing, game is over, Demolitions
+n:  * level=Gnome Village, mod=Naruto 1.26 NT
+n:  * maxkills=15, lives=-1, timelimit=360 (curtime=360.003)
+n:  + 0:'OpenLieroXor', alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 1:'[CPU] K1ll0r'(bot), alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 2:'[CPU] Kamikazee!'(bot), alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 3:'[CPU] N00b'(bot), alive, lives=-2, kills=6 on local(OpenLieroX/0.58_rc5)
+n:  + 4:'[CPU] Worm'(bot), alive, lives=-2, kills=8 on local(OpenLieroX/0.58_rc5)
+H: Client: the game is over, the winner is worm 4:[CPU] Worm
+W: possible lock of game thread detected
+W: deltatime 3.284 is too high
+W: possible lock of game thread detected
+W: deltatime 3.224 is too high
+n: LoadTheme: Theme dirt already loaded
+n: reusing cached map for levels/GnomeVillage.lxl
+n: GameLoopEnd: GotoLocalMenu
+n: Changed theme to: Angry Worm
+n: unloading PhysicsEngine LX56 physics ..
+n: Shutting me down...
+n: Everything was shut down
+n: waiting for all left threads and tasks
+W: there are still 1 pending events in the event queue
+H: -- Restarting game --
+n: I have now the following searchpaths (in this order):
+n:   C:\Users\GAME1.1\Documents/OpenLieroX
+n:   .
+n:   C:\Users\GAME1.1\Desktop\OpenLieroX
+n:  And that's all.
+n: Reading game options from C:\Users\GAME1.1\Documents/OpenLieroX/cfg/options.cfg
+n: Will write game options to C:\Users\GAME1.1\Documents/OpenLieroX/cfg/options.cfg
+n: Special searchpath for the theme: ./themes/Angry Worm
+n: DONE loading options
+n: Logfile: C:\Users\GAME1.1\Documents/OpenLieroX/logs/OpenLieroX - 20210119-1623.txt

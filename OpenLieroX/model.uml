@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_U8HRIFpwEeuVKcOkCRRzQg" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_vckewFp1Eeu7E8-suyGy5Q" name="Game" visibility="public">
+    <ownedComment xmi:id="_EQUIkFp4Eeu7E8-suyGy5Q" annotatedElement="_vckewFp1Eeu7E8-suyGy5Q">
+      <body>https://github.com/albertz/openlierox/blob/0.59/src/game/Game.h&#xD;
+</body>
+    </ownedComment>
+    <packageImport xmi:id="_LJZ8wFp3Eeu7E8-suyGy5Q">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <ownedAttribute xmi:id="_2vsRoFp2Eeu7E8-suyGy5Q" name="isClient()" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2vs4sFp2Eeu7E8-suyGy5Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2vs4sVp2Eeu7E8-suyGy5Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_4dBWIFp2Eeu7E8-suyGy5Q" name="isLocalGame()" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4dB9MFp2Eeu7E8-suyGy5Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4dB9MVp2Eeu7E8-suyGy5Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_oRZmoFp3Eeu7E8-suyGy5Q" name="cleanUpAfterGameLoop()" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oRaNsFp3Eeu7E8-suyGy5Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oRaNsVp3Eeu7E8-suyGy5Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_taiDoFp3Eeu7E8-suyGy5Q" name="m_isServer" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tajRwFp3Eeu7E8-suyGy5Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tajRwVp3Eeu7E8-suyGy5Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_3sgCsFp3Eeu7E8-suyGy5Q" name="m_isLocalGame" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3sgCsVp3Eeu7E8-suyGy5Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3sgCslp3Eeu7E8-suyGy5Q" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_WgyGcF_iEeuSH7B0B21hCg" name="init"/>
+    <ownedOperation xmi:id="_bVi18F_iEeuSH7B0B21hCg" name="startGame"/>
+    <ownedOperation xmi:id="_ehyIcF_iEeuSH7B0B21hCg" name="stop"/>
+    <ownedOperation xmi:id="_m_Z1AF_iEeuSH7B0B21hCg" name="prepareMenu" visibility="private"/>
+    <ownedOperation xmi:id="_w1qIcF_iEeuSH7B0B21hCg" name="reset" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_wneLoFp1Eeu7E8-suyGy5Q" name="CWorm" visibility="public">
+    <ownedComment xmi:id="_qYiekF_jEeuSH7B0B21hCg" annotatedElement="_wneLoFp1Eeu7E8-suyGy5Q">
+      <body>https://github.com/albertz/openlierox/blob/0.59/src/game/CWorm.h</body>
+    </ownedComment>
+    <packageImport xmi:id="_OE8NcF_gEeuSH7B0B21hCg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="_PDCNYF_gEeuSH7B0B21hCg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="_P9rQsF_gEeuSH7B0B21hCg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <ownedAttribute xmi:id="_WzBicF_hEeuSH7B0B21hCg" name="iKills" visibility="protected">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WzBicV_hEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WzCJgF_hEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_rLRN8F_hEeuSH7B0B21hCg" name="iDeaths" visibility="protected">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rLRN8V_hEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rLRN8l_hEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v1Ht8F_hEeuSH7B0B21hCg" name="fDamage" visibility="protected">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v1Ht8V_hEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v1Ht8l_hEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_8taPAF_hEeuSH7B0B21hCg" name="iTotalWins" visibility="protected">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8taPAV_hEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8taPAl_hEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_BNaPcF_iEeuSH7B0B21hCg" name="iTotalKills" visibility="protected">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BNa2gF_iEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BNa2gV_iEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_iYkJkF_eEeuSH7B0B21hCg" name="GetRandomWeapons"/>
+    <ownedOperation xmi:id="_mG1LEF_eEeuSH7B0B21hCg" name="CloneWeaponsFrom"/>
+    <ownedOperation xmi:id="_vbhpkF_eEeuSH7B0B21hCg" name="Spawn"/>
+    <ownedOperation xmi:id="_yYM2EF_eEeuSH7B0B21hCg" name="Kill"/>
+    <ownedOperation xmi:id="_0v8wkF_eEeuSH7B0B21hCg" name="checkBonusCollision"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-LK7kF_jEeuSH7B0B21hCg" name="Weapon" visibility="public">
+    <ownedComment xmi:id="_2dxgIF_lEeuSH7B0B21hCg" annotatedElement="_-LK7kF_jEeuSH7B0B21hCg">
+      <body>https://github.com/albertz/openlierox/blob/0.59/src/gusanos/weapon.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_p-5aEF_kEeuSH7B0B21hCg" name="ammo" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p-5aEV_kEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p-5aEl_kEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_vxS2gF_kEeuSH7B0B21hCg" name="inactiveTime" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vxS2gV_kEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vxS2gl_kEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_0f9lEF_kEeuSH7B0B21hCg" name="primaryShooting" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0f9lEV_kEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0f9lEl_kEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_7EaJgF_kEeuSH7B0B21hCg" name="reloading" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7EawkF_kEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7EawkV_kEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_xaSYIF_lEeuSH7B0B21hCg" name="amount" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xaSYIV_lEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xaSYIl_lEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_BptfAF_kEeuSH7B0B21hCg" name="reload" visibility="private"/>
+    <ownedOperation xmi:id="_Rc1ZgF_kEeuSH7B0B21hCg" name="outOfAmmo" visibility="private"/>
+    <ownedOperation xmi:id="_XQxHAF_kEeuSH7B0B21hCg" name="getAmmo"/>
+    <ownedOperation xmi:id="_YuJrAF_kEeuSH7B0B21hCg" name="useAmmo"/>
+    <ownedOperation xmi:id="_aZ9skF_kEeuSH7B0B21hCg" name="getOwner"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vorbIF_mEeuSH7B0B21hCg" name="weaponType" visibility="public">
+    <generalization xmi:id="_PCmZcF_pEeuSH7B0B21hCg" general="_NOEgwF_pEeuSH7B0B21hCg"/>
+    <ownedAttribute xmi:id="_TSoWIF_nEeuSH7B0B21hCg" name="laserSightRange" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TSo9MF_nEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TSo9MV_nEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_X98OsF_nEeuSH7B0B21hCg" name="laserSightIntensity" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_X98OsV_nEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X981wF_nEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_bzEtMF_nEeuSH7B0B21hCg" name="laserSightAlpha" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bzFUQF_nEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bzFUQV_nEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_lp5BUF_nEeuSH7B0B21hCg" name="syncReload" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lp5BUV_nEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lp5BUl_nEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_SfEgUF_pEeuSH7B0B21hCg" name="ammo" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SfEgUV_pEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SfEgUl_pEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_9ZuJIF_mEeuSH7B0B21hCg" name="WeaponType"/>
+    <ownedOperation xmi:id="_B59aIF_nEeuSH7B0B21hCg" name="finalize"/>
+    <ownedOperation xmi:id="_EBEQkF_nEeuSH7B0B21hCg" name="getMetaTable"/>
+    <ownedOperation xmi:id="_H0YKIF_nEeuSH7B0B21hCg" name="operator"/>
+    <ownedOperation xmi:id="_KbiZoF_nEeuSH7B0B21hCg" name="GetBaseFileName"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NOEgwF_pEeuSH7B0B21hCg" name="ResourceBase" visibility="public">
+    <ownedComment xmi:id="_ZVDqQF_1EeuSH7B0B21hCg" annotatedElement="_NOEgwF_pEeuSH7B0B21hCg">
+      <body>https://github.com/albertz/openlierox/blob/d316c14a8eb57848ef56e9bfa7b23a56f694a51b/src/gusanos/resource_base.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_vFfGIF_0EeuSH7B0B21hCg" name="m_index" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vFfGIV_0EeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vFftMF_0EeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_mB9QIF_0EeuSH7B0B21hCg" name="ResourceBase"/>
+    <ownedOperation xmi:id="_oL0foF_0EeuSH7B0B21hCg" name="getIndex"/>
+    <ownedOperation xmi:id="_p_LToF_0EeuSH7B0B21hCg" name="setIndex"/>
+    <ownedOperation xmi:id="_sVj8MF_0EeuSH7B0B21hCg" name="think"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_asIBUF_pEeuSH7B0B21hCg" name="GameEvent" visibility="public"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gPKMEF_pEeuSH7B0B21hCg" name="primaryShoot" memberEnd="_gPKzIF_pEeuSH7B0B21hCg _gPMBQF_pEeuSH7B0B21hCg" navigableOwnedEnd="_gPMBQF_pEeuSH7B0B21hCg">
+    <ownedEnd xmi:id="_gPKzIF_pEeuSH7B0B21hCg" name="weaponTypes" type="_vorbIF_mEeuSH7B0B21hCg" association="_gPKMEF_pEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gPLaMF_pEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gPLaMV_pEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_gPMBQF_pEeuSH7B0B21hCg" name="gameEvents" type="_asIBUF_pEeuSH7B0B21hCg" association="_gPKMEF_pEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gPMoUF_pEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gPMoUV_pEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gkaqYF_pEeuSH7B0B21hCg" name="primaryPressed" memberEnd="_gkaqYV_pEeuSH7B0B21hCg _gkbRcl_pEeuSH7B0B21hCg" navigableOwnedEnd="_gkbRcl_pEeuSH7B0B21hCg">
+    <ownedEnd xmi:id="_gkaqYV_pEeuSH7B0B21hCg" name="weaponTypes" type="_vorbIF_mEeuSH7B0B21hCg" association="_gkaqYF_pEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gkbRcF_pEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gkbRcV_pEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_gkbRcl_pEeuSH7B0B21hCg" name="gameEvents" type="_asIBUF_pEeuSH7B0B21hCg" association="_gkaqYF_pEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gkbRc1_pEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gkb4gF_pEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_g1z8YF_pEeuSH7B0B21hCg" name="primaryReleased" memberEnd="_g10jcF_pEeuSH7B0B21hCg _g11KgF_pEeuSH7B0B21hCg" navigableOwnedEnd="_g11KgF_pEeuSH7B0B21hCg">
+    <ownedEnd xmi:id="_g10jcF_pEeuSH7B0B21hCg" name="weaponTypes" type="_vorbIF_mEeuSH7B0B21hCg" association="_g1z8YF_pEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g10jcV_pEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g10jcl_pEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_g11KgF_pEeuSH7B0B21hCg" name="gameEvents" type="_asIBUF_pEeuSH7B0B21hCg" association="_g1z8YF_pEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g11KgV_pEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g11Kgl_pEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hH5x8F_pEeuSH7B0B21hCg" name="outOfAmmo" memberEnd="_hH5x8V_pEeuSH7B0B21hCg _hH6ZAl_pEeuSH7B0B21hCg" navigableOwnedEnd="_hH6ZAl_pEeuSH7B0B21hCg">
+    <ownedEnd xmi:id="_hH5x8V_pEeuSH7B0B21hCg" name="weaponTypes" type="_vorbIF_mEeuSH7B0B21hCg" association="_hH5x8F_pEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hH6ZAF_pEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hH6ZAV_pEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_hH6ZAl_pEeuSH7B0B21hCg" name="gameEvents" type="_asIBUF_pEeuSH7B0B21hCg" association="_hH5x8F_pEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hH6ZA1_pEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hH7AEF_pEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hXY_cF_pEeuSH7B0B21hCg" name="reloadEnd" memberEnd="_hXY_cV_pEeuSH7B0B21hCg _hXZmgF_pEeuSH7B0B21hCg" navigableOwnedEnd="_hXZmgF_pEeuSH7B0B21hCg">
+    <ownedEnd xmi:id="_hXY_cV_pEeuSH7B0B21hCg" name="weaponTypes" type="_vorbIF_mEeuSH7B0B21hCg" association="_hXY_cF_pEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hXY_cl_pEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hXY_c1_pEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_hXZmgF_pEeuSH7B0B21hCg" name="gameEvents" type="_asIBUF_pEeuSH7B0B21hCg" association="_hXY_cF_pEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hXZmgV_pEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hXZmgl_pEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Vyj04F_qEeuSH7B0B21hCg" name="m_type" memberEnd="_Vykb8F_qEeuSH7B0B21hCg _Vykb81_qEeuSH7B0B21hCg" navigableOwnedEnd="_Vykb81_qEeuSH7B0B21hCg">
+    <ownedEnd xmi:id="_Vykb8F_qEeuSH7B0B21hCg" name="weapons" type="_-LK7kF_jEeuSH7B0B21hCg" association="_Vyj04F_qEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vykb8V_qEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vykb8l_qEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Vykb81_qEeuSH7B0B21hCg" name="weaponTypes" type="_vorbIF_mEeuSH7B0B21hCg" association="_Vyj04F_qEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vykb9F_qEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vykb9V_qEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZcGHYF_qEeuSH7B0B21hCg" name="m_owner" memberEnd="_ZcGHYV_qEeuSH7B0B21hCg _ZcGucl_qEeuSH7B0B21hCg" navigableOwnedEnd="_ZcGucl_qEeuSH7B0B21hCg">
+    <ownedEnd xmi:id="_ZcGHYV_qEeuSH7B0B21hCg" name="weapons" type="_-LK7kF_jEeuSH7B0B21hCg" association="_ZcGHYF_qEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZcGucF_qEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZcGucV_qEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ZcGucl_qEeuSH7B0B21hCg" name="cWorms" type="_wneLoFp1Eeu7E8-suyGy5Q" association="_ZcGHYF_qEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZcHVgF_qEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZcHVgV_qEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bp1GEF_xEeuSH7B0B21hCg" name="timer" visibility="public">
+    <ownedComment xmi:id="_DPGVMF_0EeuSH7B0B21hCg" annotatedElement="_bp1GEF_xEeuSH7B0B21hCg">
+      <body>https://github.com/albertz/openlierox/blob/d316c14a8eb57848ef56e9bfa7b23a56f694a51b/include/Timer.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_8VRMEF_yEeuSH7B0B21hCg" name="shouldContinue" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8VRzIF_yEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8VRzIV_yEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ai0KkF_zEeuSH7B0B21hCg" name="once" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ai0KkV_zEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ai0Kkl_zEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_HlBpEF_zEeuSH7B0B21hCg" name="m_running" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HlBpEV_zEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HlCQIF_zEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MhCQEF_zEeuSH7B0B21hCg" name="time" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MhCQEV_zEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MhC3IF_zEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_zl4koF_zEeuSH7B0B21hCg" name="Uint32 interval" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zl5LsF_zEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zl5LsV_zEeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_NiuzEF_yEeuSH7B0B21hCg" name="TimeCounter"/>
+    <ownedOperation xmi:id="_T5dEkF_yEeuSH7B0B21hCg" name="GetTime" visibility="private"/>
+    <ownedOperation xmi:id="_ZtEpAF_yEeuSH7B0B21hCg" name="Timer"/>
+    <ownedOperation xmi:id="_n5cBEF_yEeuSH7B0B21hCg" name="start"/>
+    <ownedOperation xmi:id="_svuakF_yEeuSH7B0B21hCg" name="stop"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qku_IF_xEeuSH7B0B21hCg" name="timer" memberEnd="_qkvmMF_xEeuSH7B0B21hCg _qkwNQF_xEeuSH7B0B21hCg" navigableOwnedEnd="_qkwNQF_xEeuSH7B0B21hCg">
+    <ownedEnd xmi:id="_qkvmMF_xEeuSH7B0B21hCg" name="weapons" type="_-LK7kF_jEeuSH7B0B21hCg" association="_qku_IF_xEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qkvmMV_xEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qkvmMl_xEeuSH7B0B21hCg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_qkwNQF_xEeuSH7B0B21hCg" name="Timer_Events" type="_li6uQF_1EeuSH7B0B21hCg" aggregation="composite" association="_qku_IF_xEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qkwNQV_xEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qkw0UF_xEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ysJyMF_xEeuSH7B0B21hCg" name="activeTimers[*]" memberEnd="_ysJyMV_xEeuSH7B0B21hCg _ysKZQV_xEeuSH7B0B21hCg" navigableOwnedEnd="_ysKZQV_xEeuSH7B0B21hCg">
+    <ownedEnd xmi:id="_ysJyMV_xEeuSH7B0B21hCg" name="weapons" type="_-LK7kF_jEeuSH7B0B21hCg" association="_ysJyMF_xEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ysJyMl_xEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ysKZQF_xEeuSH7B0B21hCg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ysKZQV_xEeuSH7B0B21hCg" name="Timer_Events" type="_li6uQF_1EeuSH7B0B21hCg" aggregation="composite" association="_ysJyMF_xEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ysKZQl_xEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ysKZQ1_xEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1rFogF_xEeuSH7B0B21hCg" name="shootTimer" visibility="public"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_30EHMF_xEeuSH7B0B21hCg" name="shootTimer" memberEnd="_30EHMV_xEeuSH7B0B21hCg _30EHNF_xEeuSH7B0B21hCg" navigableOwnedEnd="_30EHNF_xEeuSH7B0B21hCg">
+    <ownedEnd xmi:id="_30EHMV_xEeuSH7B0B21hCg" name="weapons" type="_-LK7kF_jEeuSH7B0B21hCg" association="_30EHMF_xEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_30EHMl_xEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_30EHM1_xEeuSH7B0B21hCg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_30EHNF_xEeuSH7B0B21hCg" name="Timer_Events" type="_li6uQF_1EeuSH7B0B21hCg" aggregation="composite" association="_30EHMF_xEeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_30EHNV_xEeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_30EHNl_xEeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_li6uQF_1EeuSH7B0B21hCg" name="Timer_Event" visibility="public">
+    <ownedComment xmi:id="_BFnY0F_3EeuSH7B0B21hCg" annotatedElement="_li6uQF_1EeuSH7B0B21hCg">
+      <body>https://github.com/albertz/openlierox/blob/d316c14a8eb57848ef56e9bfa7b23a56f694a51b/src/gusanos/timer_event.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_rBn9MF_2EeuSH7B0B21hCg" name="delay" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rBokQF_2EeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rBokQV_2EeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_vGtjQF_2EeuSH7B0B21hCg" name="delayVariation" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vGuKUF_2EeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vGuKUV_2EeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_zlbKQF_2EeuSH7B0B21hCg" name="triggerTimes" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zlbKQV_2EeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zlbxUF_2EeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_3BYTwF_2EeuSH7B0B21hCg" name="startDelay" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3BYTwV_2EeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3BYTwl_2EeuSH7B0B21hCg" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_cNh2wF_2EeuSH7B0B21hCg" name="createState"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QcI24F_3EeuSH7B0B21hCg" memberEnd="_QcJd8F_3EeuSH7B0B21hCg _QcJd81_3EeuSH7B0B21hCg" navigableOwnedEnd="_QcJd81_3EeuSH7B0B21hCg">
+    <ownedEnd xmi:id="_QcJd8F_3EeuSH7B0B21hCg" name="timer_Events" type="_li6uQF_1EeuSH7B0B21hCg" association="_QcI24F_3EeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QcJd8V_3EeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QcJd8l_3EeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_QcJd81_3EeuSH7B0B21hCg" name="gameEvents" type="_asIBUF_pEeuSH7B0B21hCg" association="_QcI24F_3EeuSH7B0B21hCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QcJd9F_3EeuSH7B0B21hCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QcJd9V_3EeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

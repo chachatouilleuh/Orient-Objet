@@ -1,0 +1,308 @@
+H: OpenLieroX/0.58_rc5 is starting ...
+n: Free memory: 2047 MB
+n: Current time: Tue Jan 19 16:23:16 2021
+n: Searchpaths (in this order):
+n:   C:\Users\GAME1.1\Documents/OpenLieroX
+n:   .
+n:   C:\Users\GAME1.1\Desktop\OpenLieroX
+n: Searchpaths finished.
+W: CrashHandler tried to init twice
+n: Loading network texts... DONE
+n: Hello there, I am initializing me now...
+n: SDL_VIDEODRIVER=directx
+n: setting video mode
+n: ColorDepth: 32
+n: VideoPostProcessor initialisation ... using Dummy video post processor
+n: PixelFormat:
+n:   BitsPerPixel: 32,  BytesPerPixel: 4
+n:   R/G/B/A mask: ff0000/ff00/ff/0
+n:   R/G/B/A loss: 0/0/0/8
+n:   Colorkey: 0,  Alpha: 255
+n: using software surfaces
+n: video mode was set successfully
+n: SoundSystem initialised, 1000 channels allocated
+n: Initializing ready
+n: PhysicsEngine LX56 physics loaded
+n: CMap::Load: level levels/GnomeVillage.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/Alien Hood.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/Kirby_ice_cream_island.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/Tetrisv2.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/Toilet_Wars.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/SiegeOfTheBurger.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/Poolhouse.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/LieroFactory_Maintenance.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/Labrinth.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/KitchenKombat.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/Alien Hood.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/Laboratory Hood.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/JailBreak.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/L&MHome.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+n: CMap::Load: level levels/Mine of midnight.lxl is in image format
+n: LoadTheme: Theme dirt already loaded
+H: server started on [::]:23400
+n: Client connect to 127.0.0.1:23400
+n: sending challenge request to 127.0.0.1:23400
+n: MaxFPS is 95
+n: GameLoopStart
+n: Server is using OpenLieroX/0.58_rc5
+n: CClient: got challenge response from OpenLieroX/0.58_rc5 server
+n: GameServer: our local client has connected
+H: Worm joined: OpenLieroXor (id 0, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] N00b (id 1, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] CPU 5 (id 2, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Peter (id 3, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Dummi (id 4, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Kamikazee! (id 5, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] K1ll0r (id 6, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Worm (id 7, from local(OpenLieroX/0.58_rc5))
+n: GameServer::StartGame(), mod: Zelda v0.8, time: Tue Jan 19 16:26:02 2021
+n: LoadTheme: Theme dirt already loaded
+n: reusing cached map for levels/Mine of midnight.lxl
+n: Server Map loadtime: 0.098 seconds
+n: modLog: Loading game mod file Zelda v0.8/script.lgs
+n: modLog: Could not open image 'antifairy.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: modLog: Could not open image 'null.png'
+n: Server Mod loadtime: 0.169 seconds
+n: preparing game mode Team Race
+n: Our external IP address is 85.69.182.170
+n: Client: Got ParsePrepareGame
+n: Client: preparing worm 0:OpenLieroXor for battle
+n: Client: preparing worm 1:[CPU] N00b for battle
+n: Client: preparing worm 2:[CPU] CPU 5 for battle
+n: Client: preparing worm 3:[CPU] Peter for battle
+n: Client: preparing worm 4:[CPU] Dummi for battle
+n: Client: preparing worm 5:[CPU] Kamikazee! for battle
+n: Client: preparing worm 6:[CPU] K1ll0r for battle
+n: Client: preparing worm 7:[CPU] Worm for battle
+H: Client: we are ready, waiting now for start game signal
+n: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server: client local(OpenLieroX/0.58_rc5)(0 'OpenLieroXor', 1 '[CPU] N00b', 2 '[CPU] CPU 5', 3 '[CPU] Peter', 4 '[CPU] Dummi', 5 '[CPU] Kamikazee!', 6 '[CPU] K1ll0r', 7 '[CPU] Worm') got ready
+H: Server: BeginMatch for local(OpenLieroX/0.58_rc5)(0 'OpenLieroXor', 1 '[CPU] N00b', 2 '[CPU] CPU 5', 3 '[CPU] Peter', 4 '[CPU] Dummi', 5 '[CPU] Kamikazee!', 6 '[CPU] K1ll0r', 7 '[CPU] Worm')
+n: local Server 'OpenLieroX Server' game state:
+n:  * playing, Team Race
+n:  * level=Mine of midnight, mod=Zelda v0.8
+n:  * maxkills=15, lives=-1, timelimit=360 (curtime=0)
+n:  + 0:'OpenLieroXor', team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 1:'[CPU] N00b'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 2:'[CPU] CPU 5'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 3:'[CPU] Peter'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 4:'[CPU] Dummi'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 5:'[CPU] Kamikazee!'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 6:'[CPU] K1ll0r'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 7:'[CPU] Worm'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+H: Server: gameover, worm 0 has won the match, team 0 has won the match
+n: local Server 'OpenLieroX Server' game state:
+n:  * playing, game is over, Team Race
+n:  * level=Mine of midnight, mod=Zelda v0.8
+n:  * maxkills=15, lives=-1, timelimit=360 (curtime=0)
+n:  + 0:'OpenLieroXor', team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 1:'[CPU] N00b'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 2:'[CPU] CPU 5'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 3:'[CPU] Peter'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 4:'[CPU] Dummi'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 5:'[CPU] Kamikazee!'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 6:'[CPU] K1ll0r'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 7:'[CPU] Worm'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client: get BeginMatch signal
+H: Client: the game is over, the winner is worm 0:OpenLieroXor, the winning team is team 0
+n: LoadTheme: Theme dirt already loaded
+n: reusing cached map for levels/Mine of midnight.lxl
+n: GameLoopEnd: GotoLocalMenu
+H: server started on [::]:23400
+n: Client connect to 127.0.0.1:23400
+n: sending challenge request to 127.0.0.1:23400
+n: MaxFPS is 95
+n: GameLoopStart
+n: Server is using OpenLieroX/0.58_rc5
+n: CClient: got challenge response from OpenLieroX/0.58_rc5 server
+n: GameServer: our local client has connected
+H: Worm joined: OpenLieroXor (id 0, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] K1ll0r (id 1, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Kamikazee! (id 2, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] N00b (id 3, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Dummi (id 4, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] CPU 5 (id 5, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Worm (id 6, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Peter (id 7, from local(OpenLieroX/0.58_rc5))
+n: GameServer::StartGame(), mod: Zelda v0.8, time: Tue Jan 19 16:26:13 2021
+n: LoadTheme: Theme dirt already loaded
+n: reusing cached map for levels/Mine of midnight.lxl
+n: Server Map loadtime: 0.12 seconds
+n: Server Mod loadtime: 0.001 seconds
+n: preparing game mode Team Race
+n: Client: Got ParsePrepareGame
+n: Client: preparing worm 0:OpenLieroXor for battle
+n: Client: preparing worm 1:[CPU] K1ll0r for battle
+n: Client: preparing worm 2:[CPU] Kamikazee! for battle
+n: Client: preparing worm 3:[CPU] N00b for battle
+n: Client: preparing worm 4:[CPU] Dummi for battle
+n: Client: preparing worm 5:[CPU] CPU 5 for battle
+n: Client: preparing worm 6:[CPU] Worm for battle
+n: Client: preparing worm 7:[CPU] Peter for battle
+H: Client: we are ready, waiting now for start game signal
+n: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server: client local(OpenLieroX/0.58_rc5)(0 'OpenLieroXor', 1 '[CPU] K1ll0r', 2 '[CPU] Kamikazee!', 3 '[CPU] N00b', 4 '[CPU] Dummi', 5 '[CPU] CPU 5', 6 '[CPU] Worm', 7 '[CPU] Peter') got ready
+H: Server: BeginMatch for local(OpenLieroX/0.58_rc5)(0 'OpenLieroXor', 1 '[CPU] K1ll0r', 2 '[CPU] Kamikazee!', 3 '[CPU] N00b', 4 '[CPU] Dummi', 5 '[CPU] CPU 5', 6 '[CPU] Worm', 7 '[CPU] Peter')
+n: local Server 'OpenLieroX Server' game state:
+n:  * playing, Team Race
+n:  * level=Mine of midnight, mod=Zelda v0.8
+n:  * maxkills=15, lives=-1, timelimit=360 (curtime=0)
+n:  + 0:'OpenLieroXor', team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 1:'[CPU] K1ll0r'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 2:'[CPU] Kamikazee!'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 3:'[CPU] N00b'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 4:'[CPU] Dummi'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 5:'[CPU] CPU 5'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 6:'[CPU] Worm'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 7:'[CPU] Peter'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+H: Server: gameover, worm 0 has won the match, team 0 has won the match
+n: local Server 'OpenLieroX Server' game state:
+n:  * playing, game is over, Team Race
+n:  * level=Mine of midnight, mod=Zelda v0.8
+n:  * maxkills=15, lives=-1, timelimit=360 (curtime=0)
+n:  + 0:'OpenLieroXor', team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 1:'[CPU] K1ll0r'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 2:'[CPU] Kamikazee!'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 3:'[CPU] N00b'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 4:'[CPU] Dummi'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 5:'[CPU] CPU 5'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 6:'[CPU] Worm'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 7:'[CPU] Peter'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client: get BeginMatch signal
+H: Client: the game is over, the winner is worm 0:OpenLieroXor, the winning team is team 0
+n: LoadTheme: Theme dirt already loaded
+n: reusing cached map for levels/Mine of midnight.lxl
+n: GameLoopEnd: GotoLocalMenu
+H: server started on [::]:23400
+n: Client connect to 127.0.0.1:23400
+n: sending challenge request to 127.0.0.1:23400
+n: MaxFPS is 95
+n: GameLoopStart
+n: Server is using OpenLieroX/0.58_rc5
+n: CClient: got challenge response from OpenLieroX/0.58_rc5 server
+n: GameServer: our local client has connected
+H: Worm joined: OpenLieroXor (id 0, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] K1ll0r (id 1, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Kamikazee! (id 2, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] N00b (id 3, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Dummi (id 4, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] CPU 5 (id 5, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Worm (id 6, from local(OpenLieroX/0.58_rc5))
+H: Worm joined: [CPU] Peter (id 7, from local(OpenLieroX/0.58_rc5))
+n: GameServer::StartGame(), mod: Zelda v0.8, time: Tue Jan 19 16:26:32 2021
+n: LoadTheme: Theme dirt already loaded
+n: reusing cached map for levels/Mine of midnight.lxl
+n: Server Map loadtime: 0.097 seconds
+n: Server Mod loadtime: 0.001 seconds
+n: preparing game mode Team Race
+n: Client: Got ParsePrepareGame
+n: Client: preparing worm 0:OpenLieroXor for battle
+n: Client: preparing worm 1:[CPU] K1ll0r for battle
+n: Client: preparing worm 2:[CPU] Kamikazee! for battle
+n: Client: preparing worm 3:[CPU] N00b for battle
+n: Client: preparing worm 4:[CPU] Dummi for battle
+n: Client: preparing worm 5:[CPU] CPU 5 for battle
+n: Client: preparing worm 6:[CPU] Worm for battle
+n: Client: preparing worm 7:[CPU] Peter for battle
+H: Client: we are ready, waiting now for start game signal
+n: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server:ParseImReady: Server: client local(OpenLieroX/0.58_rc5)(0 'OpenLieroXor', 1 '[CPU] K1ll0r', 2 '[CPU] Kamikazee!', 3 '[CPU] N00b', 4 '[CPU] Dummi', 5 '[CPU] CPU 5', 6 '[CPU] Worm', 7 '[CPU] Peter') got ready
+H: Server: BeginMatch for local(OpenLieroX/0.58_rc5)(0 'OpenLieroXor', 1 '[CPU] K1ll0r', 2 '[CPU] Kamikazee!', 3 '[CPU] N00b', 4 '[CPU] Dummi', 5 '[CPU] CPU 5', 6 '[CPU] Worm', 7 '[CPU] Peter')
+n: local Server 'OpenLieroX Server' game state:
+n:  * playing, Team Race
+n:  * level=Mine of midnight, mod=Zelda v0.8
+n:  * maxkills=15, lives=-1, timelimit=360 (curtime=0)
+n:  + 0:'OpenLieroXor', team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 1:'[CPU] K1ll0r'(bot), team 1, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 2:'[CPU] Kamikazee!'(bot), team 3, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 3:'[CPU] N00b'(bot), team 1, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 4:'[CPU] Dummi'(bot), team 1, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 5:'[CPU] CPU 5'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 6:'[CPU] Worm'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 7:'[CPU] Peter'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client:ParseCLReady: Client: get BeginMatch signal
+W: possible lock of game thread detected
+W: deltatime 3.27 is too high
+H: Server: gameover, worm 2 has won the match, team 0 has won the match
+n: local Server 'OpenLieroX Server' game state:
+n:  * playing, game is over, Team Race
+n:  * level=Mine of midnight, mod=Zelda v0.8
+n:  * maxkills=15, lives=-1, timelimit=360 (curtime=207.725)
+n:  + 0:'OpenLieroXor', team 0, alive, lives=-2, kills=1 on local(OpenLieroX/0.58_rc5)
+n:  + 1:'[CPU] K1ll0r'(bot), team 1, alive, lives=-2, kills=2 on local(OpenLieroX/0.58_rc5)
+n:  + 2:'[CPU] Kamikazee!'(bot), team 3, alive, lives=-2, kills=3 on local(OpenLieroX/0.58_rc5)
+n:  + 3:'[CPU] N00b'(bot), team 1, alive, lives=-2, kills=2 on local(OpenLieroX/0.58_rc5)
+n:  + 4:'[CPU] Dummi'(bot), team 1, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 5:'[CPU] CPU 5'(bot), team 0, alive, lives=-2, kills=0 on local(OpenLieroX/0.58_rc5)
+n:  + 6:'[CPU] Worm'(bot), team 0, alive, lives=-2, kills=1 on local(OpenLieroX/0.58_rc5)
+n:  + 7:'[CPU] Peter'(bot), team 0, alive, lives=-2, kills=3 on local(OpenLieroX/0.58_rc5)
+H: Client: the game is over, the winner is worm 2:[CPU] Kamikazee!, the winning team is team 0
+n: Notifying busy user
+W: possible lock of game thread detected
+W: deltatime 3.231 is too high
+n: LoadTheme: Theme dirt already loaded
+n: reusing cached map for levels/Mine of midnight.lxl
+n: GameLoopEnd: GotoLocalMenu
+n: Changed theme to: Ze Green
+n: unloading PhysicsEngine LX56 physics ..
+n: Shutting me down...
+n: Everything was shut down
+n: waiting for all left threads and tasks
+H: -- Restarting game --
+n: I have now the following searchpaths (in this order):
+n:   C:\Users\GAME1.1\Documents/OpenLieroX
+n:   .
+n:   C:\Users\GAME1.1\Desktop\OpenLieroX
+n:  And that's all.
+n: Reading game options from C:\Users\GAME1.1\Documents/OpenLieroX/cfg/options.cfg
+n: Will write game options to C:\Users\GAME1.1\Documents/OpenLieroX/cfg/options.cfg
+n: Special searchpath for the theme: ./themes/Ze Green
+n: DONE loading options
+n: Logfile: C:\Users\GAME1.1\Documents/OpenLieroX/logs/OpenLieroX - 20210119-1701.txt

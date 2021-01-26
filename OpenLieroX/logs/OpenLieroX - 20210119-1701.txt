@@ -1,0 +1,71 @@
+H: OpenLieroX/0.58_rc5 is starting ...
+n: Free memory: 2047 MB
+n: Current time: Tue Jan 19 17:01:20 2021
+n: Searchpaths (in this order):
+n:   C:\Users\GAME1.1\Documents/OpenLieroX
+n:   .
+n:   C:\Users\GAME1.1\Desktop\OpenLieroX
+n: Searchpaths finished.
+W: CrashHandler tried to init twice
+n: Loading network texts... DONE
+n: Hello there, I am initializing me now...
+n: SDL_VIDEODRIVER=directx
+n: setting video mode
+n: ColorDepth: 32
+n: VideoPostProcessor initialisation ... using Dummy video post processor
+n: PixelFormat:
+n:   BitsPerPixel: 32,  BytesPerPixel: 4
+n:   R/G/B/A mask: ff0000/ff00/ff/0
+n:   R/G/B/A loss: 0/0/0/8
+n:   Colorkey: 0,  Alpha: 255
+n: using software surfaces
+n: video mode was set successfully
+n: SoundSystem initialised, 1000 channels allocated
+n: Initializing ready
+n: PhysicsEngine LX56 physics loaded
+n: Changed theme to: LieroX 0.56
+n: unloading PhysicsEngine LX56 physics ..
+n: Shutting me down...
+n: Everything was shut down
+n: waiting for all left threads and tasks
+H: -- Restarting game --
+n: I have now the following searchpaths (in this order):
+n:   C:\Users\GAME1.1\Documents/OpenLieroX
+n:   .
+n:   C:\Users\GAME1.1\Desktop\OpenLieroX
+n:  And that's all.
+n: Reading game options from C:\Users\GAME1.1\Documents/OpenLieroX/cfg/options.cfg
+n: Will write game options to C:\Users\GAME1.1\Documents/OpenLieroX/cfg/options.cfg
+n: Special searchpath for the theme: ./themes/LieroX 0.56
+n: DONE loading options
+n: Logfile: C:\Users\GAME1.1\Documents/OpenLieroX/logs/OpenLieroX - 20210119-1701.txt
+H: OpenLieroX/0.58_rc5 is starting ...
+n: Free memory: 2047 MB
+n: Current time: Tue Jan 19 17:01:48 2021
+n: Searchpaths (in this order):
+n:   C:\Users\GAME1.1\Documents/OpenLieroX
+n:   .
+n:   C:\Users\GAME1.1\Desktop\OpenLieroX
+n: Searchpaths finished.
+W: CrashHandler tried to init twice
+n: Loading network texts... DONE
+n: Hello there, I am initializing me now...
+n: SDL_VIDEODRIVER=directx
+n: setting video mode
+n: ColorDepth: 32
+n: VideoPostProcessor initialisation ... using Dummy video post processor
+n: PixelFormat:
+n:   BitsPerPixel: 32,  BytesPerPixel: 4
+n:   R/G/B/A mask: ff0000/ff00/ff/0
+n:   R/G/B/A loss: 0/0/0/8
+n:   Colorkey: 0,  Alpha: 255
+n: using software surfaces
+n: video mode was set successfully
+n: SoundSystem initialised, 1000 channels allocated
+n: Initializing ready
+n: PhysicsEngine LX56 physics loaded
+n: unloading PhysicsEngine LX56 physics ..
+n: Shutting me down...
+n: Everything was shut down
+n: waiting for all left threads and tasks
+n: Good Bye and enjoy your day...
