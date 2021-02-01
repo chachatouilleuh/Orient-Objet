@@ -265,7 +265,7 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zl5LsF_zEeuSH7B0B21hCg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zl5LsV_zEeuSH7B0B21hCg" value="1"/>
     </ownedAttribute>
-    <ownedOperation xmi:id="_NiuzEF_yEeuSH7B0B21hCg" name="TimeCounter"/>
+    <ownedOperation xmi:id="_NiuzEF_yEeuSH7B0B21hCg" name="EventData"/>
     <ownedOperation xmi:id="_T5dEkF_yEeuSH7B0B21hCg" name="GetTime" visibility="private"/>
     <ownedOperation xmi:id="_ZtEpAF_yEeuSH7B0B21hCg" name="Timer"/>
     <ownedOperation xmi:id="_n5cBEF_yEeuSH7B0B21hCg" name="start"/>
@@ -281,7 +281,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qkw0UF_xEeuSH7B0B21hCg" value="*"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_ysJyMF_xEeuSH7B0B21hCg" name="activeTimers[*]" memberEnd="_ysJyMV_xEeuSH7B0B21hCg _ysKZQV_xEeuSH7B0B21hCg" navigableOwnedEnd="_ysKZQV_xEeuSH7B0B21hCg">
+  <packagedElement xmi:type="uml:Association" xmi:id="_ysJyMF_xEeuSH7B0B21hCg" name="activeTimer[*]" memberEnd="_ysJyMV_xEeuSH7B0B21hCg _ysKZQV_xEeuSH7B0B21hCg" navigableOwnedEnd="_ysKZQV_xEeuSH7B0B21hCg">
     <ownedEnd xmi:id="_ysJyMV_xEeuSH7B0B21hCg" name="weapons" type="_-LK7kF_jEeuSH7B0B21hCg" association="_ysJyMF_xEeuSH7B0B21hCg">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ysJyMl_xEeuSH7B0B21hCg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ysKZQF_xEeuSH7B0B21hCg" value="1"/>
@@ -336,6 +336,187 @@
     <ownedEnd xmi:id="_QcJd81_3EeuSH7B0B21hCg" name="gameEvents" type="_asIBUF_pEeuSH7B0B21hCg" association="_QcI24F_3EeuSH7B0B21hCg">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QcJd9F_3EeuSH7B0B21hCg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QcJd9V_3EeuSH7B0B21hCg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_C0R9QGTdEeuFEZ5d0OUZDA" name="BaseObject" visibility="public">
+    <ownedComment xmi:id="_RJItgGTeEeuFEZ5d0OUZDA" annotatedElement="_C0R9QGTdEeuFEZ5d0OUZDA">
+      <body>https://github.com/albertz/openlierox/blob/d316c14a8eb57848ef56e9bfa7b23a56f694a51b/src/util/BaseObject.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_MnFeoGTeEeuFEZ5d0OUZDA" name="deleted" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MnFeoWTeEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MnFeomTeEeuFEZ5d0OUZDA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ti9EkGTeEeuFEZ5d0OUZDA" name="LuaReference" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ti9roGTeEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ti9roWTeEeuFEZ5d0OUZDA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_VqGzwGTdEeuFEZ5d0OUZDA" name="BaseObject"/>
+    <ownedOperation xmi:id="_c0_tIGTdEeuFEZ5d0OUZDA" name="isRegistered"/>
+    <ownedOperation xmi:id="_fq8mkGTdEeuFEZ5d0OUZDA" name="getMetaTable"/>
+    <ownedOperation xmi:id="_mOyuEGTdEeuFEZ5d0OUZDA" name="deleteThis"/>
+    <ownedOperation xmi:id="_nv1qEGTdEeuFEZ5d0OUZDA" name="finalize"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bnnCEGTfEeuFEZ5d0OUZDA" memberEnd="_bnnpIGTfEeuFEZ5d0OUZDA _bnoQMmTfEeuFEZ5d0OUZDA" navigableOwnedEnd="_bnoQMmTfEeuFEZ5d0OUZDA">
+    <ownedEnd xmi:id="_bnnpIGTfEeuFEZ5d0OUZDA" name="baseObjects" type="_C0R9QGTdEeuFEZ5d0OUZDA" association="_bnnCEGTfEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bnoQMGTfEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bnoQMWTfEeuFEZ5d0OUZDA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_bnoQMmTfEeuFEZ5d0OUZDA" name="resourceBases" type="_NOEgwF_pEeuSH7B0B21hCg" aggregation="composite" association="_bnnCEGTfEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bno3QGTfEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bno3QWTfEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kK8VEGTfEeuFEZ5d0OUZDA" name="Event" visibility="public">
+    <ownedComment xmi:id="_RHX2IGTiEeuFEZ5d0OUZDA" annotatedElement="_kK8VEGTfEeuFEZ5d0OUZDA">
+      <body>https://github.com/albertz/openlierox/blob/d316c14a8eb57848ef56e9bfa7b23a56f694a51b/include/Event.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_QZ0CAGThEeuFEZ5d0OUZDA" name="m_handlers" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QZ0pEGThEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QZ0pEWThEeuFEZ5d0OUZDA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_oR_YEGThEeuFEZ5d0OUZDA" name="EventThrower" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oR_YEWThEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oR_YEmThEeuFEZ5d0OUZDA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_0XE6kGThEeuFEZ5d0OUZDA" name="mainQueue" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0XE6kWThEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0XE6kmThEeuFEZ5d0OUZDA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_BQ33gGTiEeuFEZ5d0OUZDA" name="data" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BQ4ekGTiEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BQ4ekWTiEeuFEZ5d0OUZDA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_kGSCEGTgEeuFEZ5d0OUZDA" name="Operator" isAbstract="true"/>
+    <ownedOperation xmi:id="_n1xLkGTgEeuFEZ5d0OUZDA" name="Memberfunction"/>
+    <ownedOperation xmi:id="_sxFPAGTgEeuFEZ5d0OUZDA" name="Event"/>
+    <ownedOperation xmi:id="_t8UTEGTgEeuFEZ5d0OUZDA" name="get"/>
+    <ownedOperation xmi:id="_L3NZgGThEeuFEZ5d0OUZDA" name="occured"/>
+    <ownedOperation xmi:id="_6OlggGThEeuFEZ5d0OUZDA" name="pushToMainQueue"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oqvhMGTfEeuFEZ5d0OUZDA" memberEnd="_oqvhMWTfEeuFEZ5d0OUZDA _oqvhNGTfEeuFEZ5d0OUZDA" navigableOwnedEnd="_oqvhMWTfEeuFEZ5d0OUZDA _oqvhNGTfEeuFEZ5d0OUZDA">
+    <ownedEnd xmi:id="_oqvhMWTfEeuFEZ5d0OUZDA" name="userDatas" type="_kK8VEGTfEeuFEZ5d0OUZDA" association="_oqvhMGTfEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oqvhMmTfEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oqvhM2TfEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_oqvhNGTfEeuFEZ5d0OUZDA" name="timers" type="_bp1GEF_xEeuSH7B0B21hCg" association="_oqvhMGTfEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oqvhNWTfEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oqvhNmTfEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CyBEsGTjEeuFEZ5d0OUZDA" memberEnd="_CyBrwGTjEeuFEZ5d0OUZDA _CyBrw2TjEeuFEZ5d0OUZDA" navigableOwnedEnd="_CyBrw2TjEeuFEZ5d0OUZDA">
+    <ownedEnd xmi:id="_CyBrwGTjEeuFEZ5d0OUZDA" name="baseObjects" type="_C0R9QGTdEeuFEZ5d0OUZDA" association="_CyBEsGTjEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CyBrwWTjEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CyBrwmTjEeuFEZ5d0OUZDA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_CyBrw2TjEeuFEZ5d0OUZDA" name="games" type="_vckewFp1Eeu7E8-suyGy5Q" aggregation="composite" association="_CyBEsGTjEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CyBrxGTjEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CyBrxWTjEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oomPUGTjEeuFEZ5d0OUZDA" name="parentObject()" memberEnd="_oomPUWTjEeuFEZ5d0OUZDA _oomPVGTjEeuFEZ5d0OUZDA" navigableOwnedEnd="_oomPUWTjEeuFEZ5d0OUZDA _oomPVGTjEeuFEZ5d0OUZDA">
+    <ownedEnd xmi:id="_oomPUWTjEeuFEZ5d0OUZDA" name="cWorms" type="_wneLoFp1Eeu7E8-suyGy5Q" association="_oomPUGTjEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oomPUmTjEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oomPU2TjEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_oomPVGTjEeuFEZ5d0OUZDA" name="baseObjects" type="_C0R9QGTdEeuFEZ5d0OUZDA" association="_oomPUGTjEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oomPVWTjEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oomPVmTjEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UdHYAGTkEeuFEZ5d0OUZDA" name="getWeapons()" memberEnd="_UdH_EGTkEeuFEZ5d0OUZDA _UdImIWTkEeuFEZ5d0OUZDA" navigableOwnedEnd="_UdImIWTkEeuFEZ5d0OUZDA">
+    <ownedEnd xmi:id="_UdH_EGTkEeuFEZ5d0OUZDA" name="weapons" type="_-LK7kF_jEeuSH7B0B21hCg" association="_UdHYAGTkEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UdH_EWTkEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UdImIGTkEeuFEZ5d0OUZDA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UdImIWTkEeuFEZ5d0OUZDA" name="cWorms" type="_wneLoFp1Eeu7E8-suyGy5Q" aggregation="composite" association="_UdHYAGTkEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UdImImTkEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UdImI2TkEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_h4FvYGTkEeuFEZ5d0OUZDA" name="getCurrentWeaponRef()" memberEnd="_h4GWcGTkEeuFEZ5d0OUZDA _h4GWc2TkEeuFEZ5d0OUZDA" navigableOwnedEnd="_h4GWc2TkEeuFEZ5d0OUZDA">
+    <ownedEnd xmi:id="_h4GWcGTkEeuFEZ5d0OUZDA" name="weapons" type="_-LK7kF_jEeuSH7B0B21hCg" association="_h4FvYGTkEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_h4GWcWTkEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h4GWcmTkEeuFEZ5d0OUZDA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_h4GWc2TkEeuFEZ5d0OUZDA" name="cWorms" type="_wneLoFp1Eeu7E8-suyGy5Q" aggregation="composite" association="_h4FvYGTkEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_h4GWdGTkEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h4GWdWTkEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nsJYsGTkEeuFEZ5d0OUZDA" name="getWeaponTypes ()" memberEnd="_nsJYsWTkEeuFEZ5d0OUZDA _nsJYtGTkEeuFEZ5d0OUZDA" navigableOwnedEnd="_nsJYtGTkEeuFEZ5d0OUZDA">
+    <ownedEnd xmi:id="_nsJYsWTkEeuFEZ5d0OUZDA" name="weaponTypes" type="_vorbIF_mEeuSH7B0B21hCg" association="_nsJYsGTkEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nsJYsmTkEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nsJYs2TkEeuFEZ5d0OUZDA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_nsJYtGTkEeuFEZ5d0OUZDA" name="cWorms" type="_wneLoFp1Eeu7E8-suyGy5Q" aggregation="composite" association="_nsJYsGTkEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nsJYtWTkEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nsJYtmTkEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BXQE8GTlEeuFEZ5d0OUZDA" memberEnd="_BXQE8WTlEeuFEZ5d0OUZDA _BXQsAmTlEeuFEZ5d0OUZDA" navigableOwnedEnd="_BXQsAmTlEeuFEZ5d0OUZDA">
+    <ownedEnd xmi:id="_BXQE8WTlEeuFEZ5d0OUZDA" name="baseObjects" type="_C0R9QGTdEeuFEZ5d0OUZDA" association="_BXQE8GTlEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BXQsAGTlEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BXQsAWTlEeuFEZ5d0OUZDA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_BXQsAmTlEeuFEZ5d0OUZDA" name="weapons" type="_-LK7kF_jEeuSH7B0B21hCg" aggregation="composite" association="_BXQE8GTlEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BXQsA2TlEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BXQsBGTlEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TTwGwGTlEeuFEZ5d0OUZDA" name="getOwner()" memberEnd="_TTwt0GTlEeuFEZ5d0OUZDA _TTwt02TlEeuFEZ5d0OUZDA" navigableOwnedEnd="_TTwt02TlEeuFEZ5d0OUZDA">
+    <ownedEnd xmi:id="_TTwt0GTlEeuFEZ5d0OUZDA" name="weapons" type="_-LK7kF_jEeuSH7B0B21hCg" association="_TTwGwGTlEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TTwt0WTlEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TTwt0mTlEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_TTwt02TlEeuFEZ5d0OUZDA" name="cWorms" type="_wneLoFp1Eeu7E8-suyGy5Q" association="_TTwGwGTlEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TTwt1GTlEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TTwt1WTlEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qFicgGTlEeuFEZ5d0OUZDA" name="getType()" memberEnd="_qFjDkGTlEeuFEZ5d0OUZDA _qFjqoWTlEeuFEZ5d0OUZDA" navigableOwnedEnd="_qFjqoWTlEeuFEZ5d0OUZDA">
+    <ownedEnd xmi:id="_qFjDkGTlEeuFEZ5d0OUZDA" name="weapons" type="_-LK7kF_jEeuSH7B0B21hCg" association="_qFicgGTlEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qFjDkWTlEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qFjqoGTlEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_qFjqoWTlEeuFEZ5d0OUZDA" name="weaponTypes" type="_vorbIF_mEeuSH7B0B21hCg" association="_qFicgGTlEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qFjqomTlEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qFjqo2TlEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__yKhAGTlEeuFEZ5d0OUZDA" name="timer" memberEnd="__yLIEGTlEeuFEZ5d0OUZDA __yLIE2TlEeuFEZ5d0OUZDA" navigableOwnedEnd="__yLIE2TlEeuFEZ5d0OUZDA">
+    <ownedEnd xmi:id="__yLIEGTlEeuFEZ5d0OUZDA" name="timer_Events" type="_li6uQF_1EeuSH7B0B21hCg" association="__yKhAGTlEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__yLIEWTlEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__yLIEmTlEeuFEZ5d0OUZDA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="__yLIE2TlEeuFEZ5d0OUZDA" name="weaponTypes" type="_vorbIF_mEeuSH7B0B21hCg" aggregation="composite" association="__yKhAGTlEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__yLvIGTlEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__yLvIWTlEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_b5A28GTmEeuFEZ5d0OUZDA" name="activeTimer" memberEnd="_b5BeAGTmEeuFEZ5d0OUZDA _b5CFEWTmEeuFEZ5d0OUZDA" navigableOwnedEnd="_b5CFEWTmEeuFEZ5d0OUZDA">
+    <ownedEnd xmi:id="_b5BeAGTmEeuFEZ5d0OUZDA" name="timer_Events" type="_li6uQF_1EeuSH7B0B21hCg" association="_b5A28GTmEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b5BeAWTmEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b5CFEGTmEeuFEZ5d0OUZDA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_b5CFEWTmEeuFEZ5d0OUZDA" name="weaponTypes" type="_vorbIF_mEeuSH7B0B21hCg" aggregation="composite" association="_b5A28GTmEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b5CFEmTmEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b5CFE2TmEeuFEZ5d0OUZDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jgBroGTmEeuFEZ5d0OUZDA" name="shootTimer" memberEnd="_jgCSsGTmEeuFEZ5d0OUZDA _jgCSs2TmEeuFEZ5d0OUZDA" navigableOwnedEnd="_jgCSs2TmEeuFEZ5d0OUZDA">
+    <ownedEnd xmi:id="_jgCSsGTmEeuFEZ5d0OUZDA" name="timer_Events" type="_li6uQF_1EeuSH7B0B21hCg" association="_jgBroGTmEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jgCSsWTmEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jgCSsmTmEeuFEZ5d0OUZDA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_jgCSs2TmEeuFEZ5d0OUZDA" name="weaponTypes" type="_vorbIF_mEeuSH7B0B21hCg" aggregation="composite" association="_jgBroGTmEeuFEZ5d0OUZDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jgCStGTmEeuFEZ5d0OUZDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jgCStWTmEeuFEZ5d0OUZDA" value="*"/>
     </ownedEnd>
   </packagedElement>
 </uml:Model>
